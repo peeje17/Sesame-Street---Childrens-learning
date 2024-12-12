@@ -21,14 +21,19 @@ The study is based on data from an experiment where the intervention is that par
 
 The field experiment has the advantage that the ecological validity is better, as the experiment takes place in real surroundings (Blom-Hansen & Serritzlew, 2014, 15). The assumption is generally in experiments that the control group and the treatment group are the same before the intervention. They must be the same because you want the control group to be an expression of the counterfactual situation (James et al., 2017, 66). This means that the control group would have shown the same effect if they were the group that was exposed to the intervention. Thus, the expectation is that the difference between the groups' results must be due to the intervention (encouragement). I then further test the correlation by inserting the intervention variables into an OLS regression to test for any confunder variables. Finally, I will examine the OLS regressions again, but this time by clustering the standard errors for the variable's location. Checking for standard errors in relation to clusters is relevant when data is structured according to a group structure (Hussain Lauridsen, 2017, 41). The problem in data that have a group structure is that there is a high degree of multicollinearity within the groups, but between the groups, a normal OLS does not show a dependent relationship. However, one should be aware that groupings must not be too small, as this can create misleading results (Hussain & Lauridsen, 2017, 42). Thus, the study is based on an experiment, but tests the causality of an OLS regression to finally examine the meaning of groupings in the dataset.
 
+Table 1
 See the full codebook here: https://search.r-project.org/CRAN/refmans/bain/html/sesamesim.html. 
 
 
 # Analysis 1
 
-The experiments intervention is whether the parents have been encourged to let their children watch Sesame street. A ANOVA-Balance test shows (unfortunately) that there are a problem with the similarity between the control group and the treamment group. 
+The experiments intervention is whether the parents have been encourged to let their children watch Sesame street. A ANOVA-Balance test shows (unfortunately) that there are a problem with the similarity between the control group and the treamment group. Both the seeting and the regular variable are significant (<0.05) which indicates that there are a difference between the groups. 
 
 ![image](https://github.com/user-attachments/assets/0c80d858-a4b1-4c3c-b3e9-2b71a5687faa)
+
+Before we turn to the regression table the figure 1 shows, that there are now significant difference between children that was encourged and children that was not encoruged, and their knowledge on numbers. 
+Figure 1
+![image](https://github.com/user-attachments/assets/a04e722c-8436-4a69-bf2e-c2fadbfee34a)
 
 
 
