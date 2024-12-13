@@ -29,13 +29,15 @@ See the full codebook here: https://search.r-project.org/CRAN/refmans/bain/html/
 
 The experiments intervention is whether the parents have been encourged to let their children watch Sesame street. A ANOVA-Balance test shows (unfortunately) that there are a problem with the similarity between the control group and the treamment group. Both the seeting and the regular variable are significant (<0.05) which indicates that there are a difference between the groups. 
 
-<div style="width:20%; margin: auto;">
+
 ![image](https://github.com/user-attachments/assets/0c80d858-a4b1-4c3c-b3e9-2b71a5687faa)
-</div>
+
 
 Before we turn to the regression table the figure 1 shows, that there are now significant difference between children that was encourged and children that was not encoruged, and their knowledge on numbers. 
 Figure 1
 ![image](https://github.com/user-attachments/assets/a04e722c-8436-4a69-bf2e-c2fadbfee34a)
+
+
 
 
 
