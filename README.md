@@ -1,19 +1,19 @@
 # Sesame Street - Childrens learning
-My statistics assignments during my master in History and Social Science. I analyzed the general hypothesis concerning a postive effect of watching Sesame Street on kids' knowledge on numbers. 
+My statistics assignments during my master in History and Social Science. I analyzed the general hypothesis concerning a postive effect of watching the TV program Sesame Street on kids' knowledge on numbers. 
 
 My goal with uploading this old exam assignment is to show the different methods within statistics I have worked with. Therefore, I will not have a theory section, but I will rather focus on the methodolgy issues and the overall result. 
 For this assignment I have tested four hypothesis: 
 
-H1) Encouraging parents to let their children watch the TV program Sesame Street has a positive effect on children's knowledge about numbers.
+* H1) Encouraging parents to let their children watch the TV program Sesame Street has a positive effect on children's knowledge about numbers.
 
-H2) Regular viewers of the TV show Sesame Street have a better knowledge of numbers than non-regular viewers.
+* H2) Regular viewers of the TV show Sesame Street have a better knowledge of numbers than non-regular viewers.
 
 I expect socioeconomic status and geography to have a positive effect on the correlation because Sesame Street originally targeted children
 who lived in cities and had a low socioeconomic background (Lovelace, 1990). Based on this, I have I developed the following two hypotheses:
 
-H3) Low socioeconomic status positively moderates the effect of the TV program Seseame Str. on children's knowledge about numbers.
+* H3) Low socioeconomic status positively moderates the effect of the TV program Seseame Str. on children's knowledge about numbers.
 
-H4) Children from rural areas negatively moderate the effect of the TV program Seseame Str. on children's knowledge about numbers.
+* H4) Children from rural areas negatively moderate the effect of the TV program Seseame Str. on children's knowledge about numbers.
 
 
 # Data and method 
