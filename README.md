@@ -59,6 +59,7 @@ The differnece is insignificant becuase the confidence intervals overlaps in fig
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
+  
   **Figure 1**: Average treatment effect on childrens knowlegde of numbers
 </div>
 
