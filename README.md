@@ -35,6 +35,10 @@ try this with the photo: ![screenshot](imageFolder/screenshot.png)
 
 </p>
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 Before we turn to the regression table the figure 1 shows, that there are now significant difference between children that was encourged and children that was not encoruged, and their knowledge on numbers. 
 Figure 1
