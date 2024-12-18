@@ -54,9 +54,13 @@ bal.test3 <- aov(setting_new~view_enc, data=df)
 </div>
 
 
-Before we turn to the regression table, figure 1 shows, that there are no significant difference between children that was encourged to watch sesame streen and children that was not encoruged, in relation to their knowledge on numbers.
-The differnece is insignificant becuase the confidence intervals overlaps in figure 1. 
+Figure 1 shows, that there are no significant difference between children that was encourged to watch sesame streen and children that was not encoruged, in relation to their knowledge on numbers.
+The differnece is insignificant becuase the confidence intervals overlaps in figure 1. Therefore, we can reject the H1, and on the bases of this study, conclude that there are no effect of encourgring parents to let their children watch sesame street and their childrens knowlege of numbers.  
 
+Figure 1 is calculated and visualized with following code: 
+```r
+d
+```
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
