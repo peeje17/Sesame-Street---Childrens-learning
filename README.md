@@ -27,29 +27,30 @@ See the full codebook here: https://search.r-project.org/CRAN/refmans/bain/html/
 
 # Analysis 1
 
-The experiments intervention is whether the parents have been encourged to let their children watch Sesame street. A ANOVA-Balance test shows (table 1) that there are a problem with the similarity between the control group and the treamment group. Both the setting and the regular variable are significant (<0.05) which indicates that there are a difference between the groups in relation to the intervention (encorugement to watch sesame street). 
+The experiments intervention is whether the parents have been encourged to let their children watch Sesame street. A ANOVA-Balance test shows (table 1) that there are a problem with the similarity between the control group and the treamment group. Both the setting and the regular variable are significant (<0.05) which indicates that there are a difference between the groups in relation to the intervention (encorugement to watch sesame street). The differences in the setting and regular variables is a problem for the study, because the intervention was not done in the same quantity across the groups in the setting and regular varibles. 
 
 The significance bewtween the groups in relation to encourgement can be done with a anova test in R (aov): 
 ```r
+# Here with setting as example
 bal.test3 <- aov(setting_new~view_enc, data=df)
 ```
-The table belos
 <div align="center">
 
 | Variable| ANOVA (p-value) | N              |
 |---------|-----------------|----------------|
-| Site    | 0.346           | 1=60<br>           |
-|         |                 | 2=55<br>           |
-|         |                 | 3=64<br>           |
-|         |                 | 4=43<br>           |
+| Site    | 0.346           | 1=60<br>       |
+|         |                 | 2=55<br>       |
+|         |                 | 3=64<br>       |
+|         |                 | 4=43<br>       |
 |         |                 | 5=18           |
-| Setting | < 0.01          | Home=143<br>       |
-|         |                 | School=97     |
+| Setting | < 0.01          | Home=143<br>   |
+|         |                 | School=97      |
 | Regular | < 0.01          | Not-regular=54 |
 |         |                 | Regular=186    |
 | Gender  | 0.756           | Men=115        |
 |         |                 | Women=125      |
 
+**Table 1**: Anova-test for encourgement
 </div>
 
 
