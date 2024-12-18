@@ -32,7 +32,7 @@ The experiments intervention is whether the parents have been encourged to let t
 try this with the photo: ![screenshot](imageFolder/screenshot.png)
 
 | First Header  | Second Header | N            |
-| ------------- | ------------- |              |
+| ------------- | ------------- | ------------ |
 | Site          | Content Cell  |              |
 | Setting       | Content Cell  |              |
 | Regular       | < 0.01        | Home = 143   |
