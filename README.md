@@ -59,7 +59,23 @@ The differnece is insignificant becuase the confidence intervals overlaps in fig
 
 Figure 1 is calculated and visualized with following code: 
 ```r
-d
+# Firstly a t-test for the p value between view_encouragement and post knowledge of numbers
+t.test(df$postnumb~df$view_enc, var.equal=TRUE)
+
+# The average treatment effect of view_enc 
+plot.data.view_enc <- df %>%
+  group_by(view_enc)%>%
+  summarise(
+    mean = mean(postnumb),
+    lci = t.test(postnumb, conf.level = 0.95)$conf.int[1],
+    uci = t.test(postnumb, conf.level = 0.95)$conf.int[2])
+plot.data.view_enc
+
+# Visualization 
+ggplot(plot.data.view_enc, aes(view_enc, mean)) +        
+  geom_point() +
+  geom_errorbar(aes(ymin = lci, ymax = uci)) +
+  labs(x= "Opfordring 0=nej 1=ja", y = "Viden om tal")
 ```
 
 <div align="center">
