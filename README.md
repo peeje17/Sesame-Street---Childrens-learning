@@ -56,7 +56,7 @@ The table belos
 Before we turn to the regression table the figure 1 shows, that there are now significant difference between children that was encourged and children that was not encoruged, and their knowledge on numbers. 
 
   
-![image](https://github.com/peeje17/Sesame-Street---Childrens-learning/ate.png)
+![alt text]("https://github.com/peeje17/Sesame-Street---Childrens-learning/ate.png" Average treatment effect)
 
 
 
