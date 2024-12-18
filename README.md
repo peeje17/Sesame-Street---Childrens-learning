@@ -36,7 +36,7 @@ bal.test3 <- aov(setting_new~view_enc, data=df)
 The table belos
 <div align="center">
 
-|         | ANOVA (p-value) | N              |
+| Variable| ANOVA (p-value) | N              |
 |---------|-----------------|----------------|
 | Site    | 0.346           | 1=60           |
 |         |                 | 2=55           |
