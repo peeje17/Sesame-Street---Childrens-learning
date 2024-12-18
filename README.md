@@ -81,7 +81,7 @@ ggplot(plot.data.view_enc, aes(view_enc, mean)) +
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
   
-  **Figure 1**: Average treatment effect on childrens knowlegde of numbers
+  **Figure 1**: Encorugement: Average treatment effect on childrens knowlegde of numbers
 </div>
 
 ## H2 
@@ -91,9 +91,54 @@ I have used the same code as above, but now the variable regular.
 
 
 
+<div align="center">
+  <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
+  
+  **Figure 2**: Regular: Average treatment effect on childrens knowlegde of numbers
+</div>
+
+
 For the next I will explorer wheter the other variables in the dataset alters the treatment effect as shown in figure 2. 
+
+```r
 reg_view_enc2 = lm(postnumb~view_enc*site+age+sex_new+setting_new+prenumb, data=df) 
 summary(reg_view_enc2)
+```
+
+Output: 
+
+```r
+Call:
+lm(formula = postnumb ~ view_enc * site + age + sex_new + setting_new + 
+    prenumb, data = df)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-32.692  -5.916   0.153   5.757  24.761 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)      2.06088    5.60712   0.368   0.7136    
+view_enc1        0.90724    2.40493   0.377   0.7063    
+site2            2.96892    2.76136   1.075   0.2834    
+site3           -0.24426    3.02659  -0.081   0.9357    
+site4           -3.75723    2.58352  -1.454   0.1472    
+site5            1.64041    5.01255   0.327   0.7438    
+age              0.23537    0.11634   2.023   0.0442 *  
+sex_new1         0.65710    1.20535   0.545   0.5862    
+setting_new1     1.11078    1.41438   0.785   0.4331    
+prenumb          0.66166    0.06767   9.778   <2e-16 ***
+view_enc1:site2  4.24547    3.53391   1.201   0.2309    
+view_enc1:site3 -1.21035    3.70937  -0.326   0.7445    
+view_enc1:site4  2.19628    3.68821   0.595   0.5521    
+view_enc1:site5  0.39414    5.72487   0.069   0.9452    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.151 on 226 degrees of freedom
+Multiple R-squared:  0.5183,	Adjusted R-squared:  0.4906 
+F-statistic: 18.71 on 13 and 226 DF,  p-value: < 2.2e-16
+```
 
 
 
