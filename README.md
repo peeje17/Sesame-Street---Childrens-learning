@@ -27,8 +27,13 @@ See the full codebook here: https://search.r-project.org/CRAN/refmans/bain/html/
 
 # Analysis 1
 
-The experiments intervention is whether the parents have been encourged to let their children watch Sesame street. A ANOVA-Balance test shows (table 1) that there are a problem with the similarity between the control group and the treamment group. Both the setting and the regular variable are significant (<0.05) which indicates that there are a difference between the groups in relation to the intervention (encorugement to watch sesame street. 
+The experiments intervention is whether the parents have been encourged to let their children watch Sesame street. A ANOVA-Balance test shows (table 1) that there are a problem with the similarity between the control group and the treamment group. Both the setting and the regular variable are significant (<0.05) which indicates that there are a difference between the groups in relation to the intervention (encorugement to watch sesame street). 
 
+The significance bewtween the groups in relation to encourgement can be done with a anova test in R: 
+```r
+bal.test3 <- aov(setting_new~view_enc, data=df)
+```
+The table belos
 <div align="center">
 
 |         | ANOVA (p-value) | N              |
