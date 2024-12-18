@@ -31,12 +31,16 @@ The experiments intervention is whether the parents have been encourged to let t
 
 try this with the photo: ![screenshot](imageFolder/screenshot.png)
 
-| First Header  | Second Header | N            |
-| ------------- | ------------- | ------------ |
-| Site          | Content Cell  |              |
-| Setting       | Content Cell  |              |
-| Regular       | < 0.01        | Home = 143   |
-| Gender        | 0.756         | School = 97  |
+| First Header  | Second Header | N                                |
+| ------------- | ------------- | ---------------------------------|
+| Site          | 0.346         | 1 = 60                           |
+|                                 2 = 55                           |
+|                                 3 = 64                           |
+|                                 4 = 43                           |
+|                                 5 = 18                           |
+| Setting       | < 0.01        | Home = 143, School = 97          |
+| Regular       | < 0.01        | Not regular = 54, regular = 186  |
+| Gender        | 0.756         | Men = 115, Women = 125           | 
 
 
 
