@@ -31,14 +31,15 @@ The experiments intervention is whether the parents have been encourged to let t
 
 try this with the photo: ![screenshot](imageFolder/screenshot.png)
 <p align="center">
-   <img width="460" height="300" src=="https://github.com/user-attachments/assets/78fcfab6-6d6b-4105-8991-8120658ead03">
-
+| First Header  | Second Header | N            |
+| ------------- | ------------- |              |
+| Site          | Content Cell  |              |
+| Setting       | Content Cell  |              |
+| Regular       | < 0.01        | Home = 143   |
+| Gender        | 0.756         | School = 97  |
 </p>
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
 
 Before we turn to the regression table the figure 1 shows, that there are now significant difference between children that was encourged and children that was not encoruged, and their knowledge on numbers. 
 Figure 1
