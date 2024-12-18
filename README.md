@@ -30,14 +30,14 @@ See the full codebook here: https://search.r-project.org/CRAN/refmans/bain/html/
 The experiments intervention is whether the parents have been encourged to let their children watch Sesame street. A ANOVA-Balance test shows (table 1) that there are a problem with the similarity between the control group and the treamment group. Both the setting and the regular variable are significant (<0.05) which indicates that there are a difference between the groups in relation to the intervention (encorugement to watch sesame street. 
 
 try this with the photo: ![screenshot](imageFolder/screenshot.png)
-<p align="center">
+
 | First Header  | Second Header | N            |
 | ------------- | ------------- |              |
 | Site          | Content Cell  |              |
 | Setting       | Content Cell  |              |
 | Regular       | < 0.01        | Home = 143   |
 | Gender        | 0.756         | School = 97  |
-</p>
+
 
 
 
