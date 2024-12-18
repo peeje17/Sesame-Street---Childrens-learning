@@ -38,13 +38,13 @@ The table belos
 
 | Variable| ANOVA (p-value) | N              |
 |---------|-----------------|----------------|
-| Site    | 0.346           | 1=60           |
-|         |                 | 2=55           |
-|         |                 | 3=64           |
-|         |                 | 4=43           |
+| Site    | 0.346           | 1=60<br>           |
+|         |                 | 2=55<br>           |
+|         |                 | 3=64<br>           |
+|         |                 | 4=43<br>           |
 |         |                 | 5=18           |
-| Setting | < 0.01          | Home=143       |
-|         |                 | School=97      |
+| Setting | < 0.01          | Home=143<br>       |
+|         |                 | School=97     |
 | Regular | < 0.01          | Not-regular=54 |
 |         |                 | Regular=186    |
 | Gender  | 0.756           | Men=115        |
