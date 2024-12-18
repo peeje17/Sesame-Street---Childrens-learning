@@ -75,7 +75,7 @@ plot.data.view_enc
 ggplot(plot.data.view_enc, aes(view_enc, mean)) +        
   geom_point() +
   geom_errorbar(aes(ymin = lci, ymax = uci)) +
-  labs(x= "Opfordring 0=nej 1=ja", y = "Viden om tal")
+  labs(x= "Encourgement 0=no 1=yes", y = "Knowledge about numbers")
 ```
 
 <div align="center">
