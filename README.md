@@ -53,11 +53,12 @@ The table belos
 </div>
 
 
-Before we turn to the regression table the figure 1 shows, that there are now significant difference between children that was encourged and children that was not encoruged, and their knowledge on numbers. 
+Before we turn to the regression table, figure 1 shows, that there are no significant difference between children that was encourged to watch sesame streen and children that was not encoruged, in relation to their knowledge on numbers.
+The differnece is insignificant becuase the confidence intervals overlaps in figure 1. 
 
-  
+Figure 1  
 <div align="center">
-  <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/ate.png" alt="Description of Image" width="WIDTH" height="HEIGHT">
+  <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
 </div>
 
 
