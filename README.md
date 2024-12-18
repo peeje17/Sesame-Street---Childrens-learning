@@ -49,10 +49,12 @@ The experiments intervention is whether the parents have been encourged to let t
 
 
 Before we turn to the regression table the figure 1 shows, that there are now significant difference between children that was encourged and children that was not encoruged, and their knowledge on numbers. 
+
+<div align="center">
 Figure 1
 ![image](https://github.com/user-attachments/assets/a04e722c-8436-4a69-bf2e-c2fadbfee34a)
 
-
+</div>
 
 
 
