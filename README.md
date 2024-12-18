@@ -101,43 +101,43 @@ I have used the same code as above, but now the variable regular.
 For the next I will explorer wheter the other variables in the dataset alters the treatment effect as shown in figure 2. 
 
 ```r
-reg_view_enc2 = lm(postnumb~view_enc*site+age+sex_new+setting_new+prenumb, data=df) 
-summary(reg_view_enc2)
+reg_regular2 = lm(postnumb~regular*site+age+sex_new+prenumb+site+setting_new, data=df) 
+summary(reg_regular2)
 ```
 
 Output: 
 
 ```r
 Call:
-lm(formula = postnumb ~ view_enc * site + age + sex_new + setting_new + 
-    prenumb, data = df)
+lm(formula = postnumb ~ regular * site + age + sex_new + prenumb + 
+    site + setting_new, data = df)
 
 Residuals:
     Min      1Q  Median      3Q     Max 
--32.692  -5.916   0.153   5.757  24.761 
+-33.017  -5.538   0.308   5.407  22.981 
 
 Coefficients:
-                Estimate Std. Error t value Pr(>|t|)    
-(Intercept)      2.06088    5.60712   0.368   0.7136    
-view_enc1        0.90724    2.40493   0.377   0.7063    
-site2            2.96892    2.76136   1.075   0.2834    
-site3           -0.24426    3.02659  -0.081   0.9357    
-site4           -3.75723    2.58352  -1.454   0.1472    
-site5            1.64041    5.01255   0.327   0.7438    
-age              0.23537    0.11634   2.023   0.0442 *  
-sex_new1         0.65710    1.20535   0.545   0.5862    
-setting_new1     1.11078    1.41438   0.785   0.4331    
-prenumb          0.66166    0.06767   9.778   <2e-16 ***
-view_enc1:site2  4.24547    3.53391   1.201   0.2309    
-view_enc1:site3 -1.21035    3.70937  -0.326   0.7445    
-view_enc1:site4  2.19628    3.68821   0.595   0.5521    
-view_enc1:site5  0.39414    5.72487   0.069   0.9452    
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    -2.37720    5.85403  -0.406   0.6851    
+regular1        7.69334    3.23910   2.375   0.0184 *  
+site2           3.96086    5.36003   0.739   0.4607    
+site3          -1.84937    3.94247  -0.469   0.6395    
+site4           1.40294    3.47545   0.404   0.6868    
+site5           5.04274    4.78235   1.054   0.2928    
+age             0.21852    0.11085   1.971   0.0499 *  
+sex_new1        0.64724    1.15541   0.560   0.5759    
+prenumb         0.61688    0.06625   9.311   <2e-16 ***
+setting_new1    1.55429    1.33331   1.166   0.2450    
+regular1:site2  1.64510    5.62242   0.293   0.7701    
+regular1:site3  1.30817    4.29411   0.305   0.7609    
+regular1:site4 -2.99413    4.21540  -0.710   0.4783    
+regular1:site5 -1.86374    5.45445  -0.342   0.7329    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 9.151 on 226 degrees of freedom
-Multiple R-squared:  0.5183,	Adjusted R-squared:  0.4906 
-F-statistic: 18.71 on 13 and 226 DF,  p-value: < 2.2e-16
+Residual standard error: 8.803 on 226 degrees of freedom
+Multiple R-squared:  0.5543,	Adjusted R-squared:  0.5287 
+F-statistic: 21.62 on 13 and 226 DF,  p-value: < 2.2e-16
 ```
 
 
