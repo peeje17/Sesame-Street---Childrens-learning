@@ -53,7 +53,7 @@ bal.test3 <- aov(setting_new~view_enc, data=df)
 **Table 1**: Anova-test for encourgement
 </div>
 
-
+## H1
 Figure 1 shows, that there are no significant difference between children that was encourged to watch sesame streen and children that was not encoruged, in relation to their knowledge on numbers.
 The differnece is insignificant becuase the confidence intervals overlaps in figure 1. Therefore, we can reject the H1, and on the bases of this study, conclude that there are no effect of encourgring parents to let their children watch sesame street and their childrens knowlege of numbers.  
 
@@ -84,7 +84,16 @@ ggplot(plot.data.view_enc, aes(view_enc, mean)) +
   **Figure 1**: Average treatment effect on childrens knowlegde of numbers
 </div>
 
+## H2 
 
+The second hypothiss H2, whether regular viewers of sesame street have an effect of the same childrens knowledge of numbers shows more promising results with the average treatment effect.
+I have used the same code as above, but now the variable regular. 
+
+
+
+For the next I will explorer wheter the other variables in the dataset alters the treatment effect as shown in figure 2. 
+reg_view_enc2 = lm(postnumb~view_enc*site+age+sex_new+setting_new+prenumb, data=df) 
+summary(reg_view_enc2)
 
 
 
