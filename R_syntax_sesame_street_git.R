@@ -138,7 +138,7 @@ t.test(df$postnumb~df$regular, var.equal=TRUE)
 
 
 
-# Den gennemsnitlige effekt af view_enc 
+# The average treatment effect of view_enc 
 plot.data.regular <- df %>%
   group_by(regular)%>%
   summarise(
@@ -147,7 +147,7 @@ plot.data.regular <- df %>%
     uci = t.test(postnumb, conf.level = 0.95)$conf.int[2])
 plot.data.regular
 
-# visualisering 
+# Visualization 
 ggplot(plot.data.regular, aes(regular, mean)) +        
   geom_point() +
   geom_errorbar(aes(ymin = lci, ymax = uci)) +
@@ -182,7 +182,7 @@ modelsummary(reg_cluster1)
 
 
 
-                              ### --- D cluster SE for regular --- ### 
+                                             ### --- D cluster SE for regular --- ### 
 
 
 # Cluster for regular with site as interaction  
