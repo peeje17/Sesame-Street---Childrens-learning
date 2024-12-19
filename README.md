@@ -116,5 +116,9 @@ plot_summs(reg_regular2)
 </div>
 
 
+1 Expaing the regression and the interaction 
+2 consider during one regression with cluster 
+3 conclusion
+
 
 
