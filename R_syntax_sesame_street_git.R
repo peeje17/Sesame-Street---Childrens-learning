@@ -65,7 +65,7 @@ describeBy(df, df$view_enc)
 describeBy(df, df$viewenc)
 describeBy(df, df$site)
 
-describe(df)
+#describe(df)
 describeBy(df, df$setting_new)
 
 
@@ -131,6 +131,27 @@ summary(reg_view_enc2)
 # Stargazer package for table visualization
 stargazer(reg_view_enc2,regular2)
 stargazer(reg_view_enc2)
+
+
+                                                       ----- #### ATE for regular #### ---- 
+t.test(df$postnumb~df$regular, var.equal=TRUE)
+
+
+
+# Den gennemsnitlige effekt af view_enc 
+plot.data.regular <- df %>%
+  group_by(regular)%>%
+  summarise(
+    mean = mean(postnumb),
+    lci = t.test(postnumb, conf.level = 0.95)$conf.int[1],
+    uci = t.test(postnumb, conf.level = 0.95)$conf.int[2])
+plot.data.regular
+
+# visualisering 
+ggplot(plot.data.regular, aes(regular, mean)) +        
+  geom_point() +
+  geom_errorbar(aes(ymin = lci, ymax = uci)) +
+  labs(x= "Regular viewer of Sesame Street 0 = No 1 = Yes", y = "Knowledge about numbers")
 
 
 
