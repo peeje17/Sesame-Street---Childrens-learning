@@ -108,4 +108,13 @@ summary(reg_regular2)
 plot_summs(reg_regular2)
 ```
 
+<div align="center">
+  <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ols.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
+  
+  **Figure 3**: OLS regression on childrens knowledge about numbers 
+  
+</div>
+
+
+
 
