@@ -103,43 +103,9 @@ For the next I will explorer wheter the other variables in the dataset alters th
 ```r
 reg_regular2 = lm(postnumb~regular*site+age+sex_new+prenumb+site+setting_new, data=df) 
 summary(reg_regular2)
+
+# for visualization of the confidence intervals
+plot_summs(reg_regular2)
 ```
-
-Output: 
-
-```r
-Call:
-lm(formula = postnumb ~ regular * site + age + sex_new + prenumb + 
-    site + setting_new, data = df)
-
-Residuals:
-    Min      1Q  Median      3Q     Max 
--33.017  -5.538   0.308   5.407  22.981 
-
-Coefficients:
-               Estimate Std. Error t value Pr(>|t|)    
-(Intercept)    -2.37720    5.85403  -0.406   0.6851    
-regular1        7.69334    3.23910   2.375   0.0184 *  
-site2           3.96086    5.36003   0.739   0.4607    
-site3          -1.84937    3.94247  -0.469   0.6395    
-site4           1.40294    3.47545   0.404   0.6868    
-site5           5.04274    4.78235   1.054   0.2928    
-age             0.21852    0.11085   1.971   0.0499 *  
-sex_new1        0.64724    1.15541   0.560   0.5759    
-prenumb         0.61688    0.06625   9.311   <2e-16 ***
-setting_new1    1.55429    1.33331   1.166   0.2450    
-regular1:site2  1.64510    5.62242   0.293   0.7701    
-regular1:site3  1.30817    4.29411   0.305   0.7609    
-regular1:site4 -2.99413    4.21540  -0.710   0.4783    
-regular1:site5 -1.86374    5.45445  -0.342   0.7329    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 8.803 on 226 degrees of freedom
-Multiple R-squared:  0.5543,	Adjusted R-squared:  0.5287 
-F-statistic: 21.62 on 13 and 226 DF,  p-value: < 2.2e-16
-```
-
-
 
 
