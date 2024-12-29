@@ -86,8 +86,8 @@ ggplot(plot.data.view_enc, aes(view_enc, mean)) +
 
 ## H2 
 
-The second hypothiss H2, whether regular viewers of sesame street have an effect of the same childrens knowledge of numbers shows more promising results with the average treatment effect.
-I have used the same code as above, but now the variable regular. 
+The second hypothiss H2, whether regular viewers of sesame street have an effect of the same childrens knowledge of numbers, shows more promising results with the average treatment effect.
+I have used the same code as above, but now for the variable regular. 
 
 
 
@@ -98,7 +98,7 @@ I have used the same code as above, but now the variable regular.
 </div>
 
 
-For the next I will explorer wheter the other variables in the dataset alters the treatment effect as shown in figure 2. 
+I will now explore wheter the other variables in the dataset alters the treatment effect as shown in figure 2. 
 
 ```r
 reg_regular2 = lm(postnumb~regular*site+age+sex_new+prenumb+site+setting_new, data=df) 
@@ -114,6 +114,8 @@ plot_summs(reg_regular2)
   **Figure 3**: OLS regression on childrens knowledge about numbers 
   
 </div>
+
+The only significant result is the regular varible, which then indicates, on basis of this data, that watching Sesame Street regulary 
 
 
 1 Expaing the regression and the interaction 
