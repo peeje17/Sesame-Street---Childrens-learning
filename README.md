@@ -80,7 +80,7 @@ ggplot(plot.data.view_enc, aes(view_enc, mean)) +
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
-  
+
   **Figure 1**: Encorugement: Average treatment effect on childrens knowlegde of numbers
 </div>
 
@@ -93,7 +93,7 @@ I have used the same code as above, but now the variable regular.
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
-  
+
   **Figure 2**: Regular: Average treatment effect on childrens knowlegde of numbers
 </div>
 
@@ -110,11 +110,10 @@ plot_summs(reg_regular2)
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ols.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
-  
-  **Figure 3**: OLS regression on childrens knowledge about numbers 
-  
-</div>
 
+  **Figure 3**: OLS regression on childrens knowledge about numbers 
+
+</div>
 
 1 Expaing the regression and the interaction 
 2 consider during one regression with cluster 
