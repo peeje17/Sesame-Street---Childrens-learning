@@ -131,7 +131,7 @@ The next OLS regression I have clustered the standard errors according to locati
 For the regular varible I find no meaningfull results, but the interaction between the encorugement variable and the site variable now shows siginificant results. 
 
 <div align="center">
-  <img src="xxx" alt="Figure 1" width="WIDTH" height="HEIGHT">
+  <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/view_enc_cluster.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
   
   **Figure 4**: OLS regression (clustered) on childrens knowledge about numbers 
 </div>
