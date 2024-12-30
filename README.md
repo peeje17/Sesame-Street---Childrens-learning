@@ -136,4 +136,9 @@ For the regular varible I find no meaningfull results, but the interaction betwe
   **Figure 4**: OLS regression (clustered) on childrens knowledge about numbers 
 </div>
 
-When beeing encourged to watch Sesame Street and moving from the group 1 (disadvantaged inner city) to group 2 (advantaged suburban) and 4 (disadvantaged rural) shows a significant postive result, with the largest effect of going from group 1 to 2, which has a effect of 4.25 on scale from 0 to 54. 
+When beeing encourged to watch Sesame Street and moving from the group 1 (disadvantaged inner city) to group 2 (advantaged suburban) and 4 (disadvantaged rural) shows a significant postive result, with the largest effect of going from group 1 to 2, which has a effect of 4.25 on scale from 0 to 54.
+
+Missing: 
+1 rest of H3 conclusion: reject H3 
+2 Conclusion 
+3 Other corrections. 
