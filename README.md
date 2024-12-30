@@ -93,6 +93,7 @@ I have used the same code as above, but now for the variable regular.
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
+  
   **Figure 2**: Regular: Average treatment effect on childrens knowlegde of numbers
 </div>
 
@@ -109,13 +110,14 @@ plot_summs(reg_regular2)
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ols.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
+  
   **Figure 3**: OLS regression on childrens knowledge about numbers 
-
 </div>
 =======
 The only significant result is the regular variable, which then indicates, on basis of this data, that watching Sesame Street regularly increases children's knowledge about numbers. However, the coefficient on 7.69 is only a small effect on the post numb variable which goes from 0 to 54.     
 
 
+## H3 and H4
 
 1 Do one with cluster and then ansewer the H3 and H4 
 2 Conclusion
