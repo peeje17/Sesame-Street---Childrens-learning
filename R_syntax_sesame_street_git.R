@@ -43,7 +43,6 @@ library(modelsummary)
                                                               ### --- Loading data --- ###
 
 df = read_dta(file = "Sesame.dta")
-describe.by(df)
 View(df)
 
 
