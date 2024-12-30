@@ -131,9 +131,14 @@ The next OLS regression I have clustered the standard errors according to locati
 For the regular varible I find no meaningfull results, but the interaction between the encorugement variable and the site variable now shows siginificant results. 
 
 <div align="center">
-  <img src="xxx" alt="Figure 1" width="WIDTH" height="HEIGHT">
+  <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/view_enc_cluster.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
   
   **Figure 4**: OLS regression (clustered) on childrens knowledge about numbers 
 </div>
 
+When beeing encourged to watch Sesame Street and moving from the group 1 (disadvantaged inner city) to group 2 (advantaged suburban) and 4 (disadvantaged rural) shows a significant postive result, with the largest effect of going from group 1 to 2, which has a effect of 4.25 on scale from 0 to 54.
 
+Missing: 
+1 rest of H3 conclusion: reject H3 
+2 Conclusion 
+3 Other corrections. 
