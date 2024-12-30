@@ -113,14 +113,27 @@ plot_summs(reg_regular2)
   
   **Figure 3**: OLS regression on childrens knowledge about numbers 
 </div>
-=======
-The only significant result is the regular variable, which then indicates, on basis of this data, that watching Sesame Street regularly increases children's knowledge about numbers. However, the coefficient on 7.69 is only a small effect on the post numb variable which goes from 0 to 54.     
+
+The regular variable continues to be significant, which then indicates, on basis of this data, that watching Sesame Street regularly increases children's knowledge about numbers. However, the coefficient on 7.69 is only a small effect on the post numb variable which goes from 0 to 54.     
 
 
-## H3 and H4
+## H3
+The Sesame Street program originally targeted children who lived in cities and had a low socioeconomic background (Lovelace, 1990). Therefore, I expect beeing a regular viewer of the program and coming from a disadvange home increases those childrens knowledge about numbers (H3). The site varible can help me answer that question, which a grouped as following: 
 
-1 Do one with cluster and then ansewer the H3 and H4 
-2 Conclusion
+1 = disadvantaged inner city
+2 = advantaged suburban  
+3 = advantaged rural
+4 = disadvantaged rural 
+5 = disadvantaged Spanish speaking. 
 
+The next OLS regression I have clustered the standard errors according to location. This means that the multicollinearity that occurs within the groups is taken into account for the location of the variable, so that the model can assume a dependent relationship between the groups. However, it is worth mentioning that clustered standard errors is more reliable when having a large dataset, and the dataset I am using only has 240 observations. 
+
+For the regular varible I find no meaningfull results, but the interaction between the encorugement variable and the site variable now shows siginificant results. 
+
+<div align="center">
+  <img src="xxx" alt="Figure 1" width="WIDTH" height="HEIGHT">
+  
+  **Figure 4**: OLS regression (clustered) on childrens knowledge about numbers 
+</div>
 
 
