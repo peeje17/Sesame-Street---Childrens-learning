@@ -135,6 +135,10 @@ When beeing encourged to watch Sesame Street and moving from the group 1 (disadv
 
 
 # Conclusion and discussion
-The overall conclusion and interesting result based on this dataset, is that regular viewers of the TV show Sesame Street have a better knowledge of numbers than non-regular viewers (H2). The internal validity is high because of the many control variables which included in the study. However, the external validity more modest because the dataset only contains 240 observations. The first hypothis concerning the encourgement from parents to let their children watch the TV program Sesame Street showed no significant effect. 
+The overall conclusion and interesting result based on this dataset, is that regular viewers of the TV show Sesame Street have a better knowledge of numbers than non-regular viewers (H2). The internal validity is high because of the many control variables which included in the study. However, the external validity more modest because the dataset only contains 240 observations. The first hypothis concerning the encourgement from parents to let their children watch the TV program Sesame Street showed no significant effect. The last hypothsis analyzed whether low socioeconomic status positively moderates the effect of the TV program Seseame Str. on children's knowledge about numbers with the use clusted standard errors. Here the results are more muddy. There was significant result between groups with regular viewers as interaction, but with encourgement and espicially with group 1 to 2 showed a postive significant result. Because the diffence of going from group 1 was disadvangted children from urban centers and to group 2 which was better of children from the suburbs, there contadicts the expectation the TV program.  
+
+Site variale not good. 
+
+# Litterature
 
 
