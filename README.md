@@ -145,3 +145,9 @@ The overall conclusion and interesting result based on this dataset, is that reg
 * Lovelace, V. (1990). “Sesame Street” as a Continuing Experiment. Educational Technology Research and Development, 38(4), 17–24.
 * Mares, M.-L., & Pan, Z. (2013). Effects of Sesame Street: A meta-analysis of children’s learning in 15 countries. Journal of Applied Developmental Psychology, 34(3), 140–151. https://doi.org/10.1016/j.appdev.2013.01.001
 
+
+# Missings (delte when done) 
+1 read the whole thing and correct
+2 Make sure code is good. 
+3 Not sure that you can share the dataset. 
+
