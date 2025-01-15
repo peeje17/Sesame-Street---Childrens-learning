@@ -13,8 +13,6 @@ who lived in cities and had a low socioeconomic background (Lovelace, 1990). Bas
 
 * H3) Low socioeconomic status positively moderates the effect of the TV program Seseame Str. on children's knowledge about numbers.
 
-* H4) Children from rural areas negatively moderate the effect of the TV program Seseame Str. on children's knowledge about numbers.
-
 
 # Data and method 
 The study is based on data from an experiment where the intervention is that parents have been encouraged to let their children watch Sesame Str. (encouragement). The study's dependent variable is interval-scaled in relation to children's knowledge of numbers after the experiment (postfigures). The other primary independent variable is whether or not you watch Sesame Str. frequently (regularity). The regularity variable is included to check whether the respondents already watch the program often, which may have an impact on whether the call is effective. Then I have added a number of control variables, including gender, age (number of months) and children's knowledge of numbers before the intervention (prenumbers). Gender is relevant to include because previous research has shown a difference between girls' and boys' results (Mares & Pan, 2013, 141). In addition, it must be expected that if you are older, you have a better understanding of numbers, therefore I also check for the children's previous knowledge of numbers. Furthermore, I have added the variable setting which specifies whether you watch Sesame Str. at home or at school. The variable is included because you might expect there is more quite at school than at home or vice versa. Finally, the geographical and socio-economic location (site) will be included as an interaction link to see if it moderates the correlation. It is categorically structured in which 1= 3 to 5 years old disadvantaged children from urban centres, 2= 4-year-olds better off children from the suburbs, 3= better off children from the countryside, 4= disadvantaged children from the countryside and 5= disadvantaged Spanish-speaking children. I do not have exact knowledge of the experiment, but it is to be expected that it is a field experiment, because the respondents have not been asked to see Sesame Str. in a laboratory. 
@@ -118,7 +116,7 @@ The regular variable continues to be significant, which then indicates, on basis
 
 
 ## H3
-The Sesame Street program originally targeted children who lived in cities and had a low socioeconomic background (Lovelace, 1990). Therefore, I expect beeing a regular viewer of the program and coming from a disadvange home increases those childrens knowledge about numbers (H3). The site varible can help me answer that question, which a grouped as following: 
+The Sesame Street program originally targeted children who lived in cities and had a low socioeconomic background (Lovelace, 1990). Therefore, I expect beeing a regular viewer of the program and coming from a disadvange home increases those childrens knowledge about numbers (H3). The site varible can help me answer that question, which are grouped as following: 
 
 1 = disadvantaged inner city
 2 = advantaged suburban  
@@ -128,7 +126,7 @@ The Sesame Street program originally targeted children who lived in cities and h
 
 The next OLS regression I have clustered the standard errors according to location. This means that the multicollinearity that occurs within the groups is taken into account for the location of the variable, so that the model can assume a dependent relationship between the groups. However, it is worth mentioning that clustered standard errors is more reliable when having a large dataset, and the dataset I am using only has 240 observations. 
 
-For the regular varible I find no meaningfull results, but the interaction between the encorugement variable and the site variable now shows siginificant results. 
+For the regular varible I find no meaningfull results (not shown), but the interaction between the encorugement variable and the site variable now shows siginificant results.
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/view_enc_cluster.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
@@ -136,9 +134,8 @@ For the regular varible I find no meaningfull results, but the interaction betwe
   **Figure 4**: OLS regression (clustered) on childrens knowledge about numbers 
 </div>
 
-When beeing encourged to watch Sesame Street and moving from the group 1 (disadvantaged inner city) to group 2 (advantaged suburban) and 4 (disadvantaged rural) shows a significant postive result, with the largest effect of going from group 1 to 2, which has a effect of 4.25 on scale from 0 to 54.
+When beeing encourged to watch Sesame Street and moving from the group 1 (disadvantaged inner city) to group 2 (advantaged suburban) and 4 (disadvantaged rural) shows a significant postive result, with the largest effect of going from group 1 to 2, which has a effect of 4.25 on scale from 0 to 54. Based on these results I have to reject H3, because the results shows a positive relationship going from disadvantaged inner city children to advantaged suburban children. 
 
-Missing: 
-1 rest of H3 conclusion: reject H3 
-2 Conclusion 
-3 Other corrections. 
+
+## Conclusion
+
