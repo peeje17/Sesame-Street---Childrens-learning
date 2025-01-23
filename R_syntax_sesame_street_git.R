@@ -127,7 +127,7 @@ ggplot(plot.data.view_enc, aes(view_enc, mean)) +
 reg_view_enc2 = lm(postnumb~view_enc*site+age+sex_new+setting_new+prenumb, data=df) 
 summary(reg_view_enc2)
 
-# Stargazer package for table visualization
+# Stargazer package for table visualization in Latex
 stargazer(reg_view_enc2,regular2)
 stargazer(reg_view_enc2)
 
@@ -164,7 +164,6 @@ summary(reg_regular2)
 
 plot_summs(reg_regular2)
 
-stargazer(reg_view_enc2, regular2)
 
 
 
@@ -190,6 +189,5 @@ reg_cluster2 <- feols(postnumb~regular*site+age+sex_new+setting_new+site+prenumb
 summary(reg_cluster2)
 plot_summs(reg_cluster2)
 
-etable(list(reg_cluster1, reg_cluster2.1), tex=TRUE)
 
 
