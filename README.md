@@ -1,4 +1,4 @@
-# Sesame Street - Children's learning
+# Sesame Street - Children's knowledge of numbers
 One of my statistics assignments during my master in History and Social Science. I analyzed the general hypothesis concerning a positive effect of watching the TV program Sesame Street on kids' knowledge on numbers. 
 
 My goal with uploading this old exam assignment is to show the different methods within statistics I have worked with. Therefore, I will not have a theory section, but I will rather focus on the method and the overall result. 
