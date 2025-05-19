@@ -75,7 +75,7 @@ ggplot(plot.data.view_enc, aes(view_enc, mean)) +
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
-  **Figure 1**: Encouragement: Average treatment effect on children's knowledge of numbers
+  <p><strong>Figure 1:</strong> Encouragement: Average treatment effect on children's knowledge of numbers
 </div>
 
 ## H2 
