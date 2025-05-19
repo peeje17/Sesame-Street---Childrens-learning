@@ -87,7 +87,7 @@ I have used the same code as above, but now for the variable regular.
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
-  Figure 2: Regular: Average treatment effect on children's knowledge of numbers
+  <p><strong>Figure 2:</strong> Regular: Average treatment effect on children's knowledge of numbers
 </div>
 
 
@@ -103,7 +103,7 @@ plot_summs(reg_regular2)
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ols.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
-  **Figure 3**: OLS regression on children's knowledge about numbers 
+  <p><strong>Figure 3:</strong> OLS regression on children's knowledge about numbers 
 </div>
 
 The regular variable continues to be significant, which then indicates, on basis of this data, that watching Sesame Street regularly increases children's knowledge about numbers. However, the coefficient on 7.69 is only a small effect on the postnumb variable which goes from 0 to 54.     
@@ -124,7 +124,7 @@ For the regular variable I find no meaningful results in relation sites interact
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/view_enc_cluster.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
-  **Figure 4**: OLS regression (clustered) on children's knowledge about numbers 
+  <p><strong>Figure 4:</strong> OLS regression (clustered) on children's knowledge about numbers 
 </div>
 
 When beeing encouraged to watch Sesame Str. and moving from the group 1 (disadvantaged inner city) to group 2 (advantaged suburban) and 4 (disadvantaged rural) shows a significant positive result, with the largest effect of going from group 1 to 2, which has a effect of 4.25 on scale from 0 to 54. Based on these results I have to reject H3, because the results shows a positive relationship going from disadvantaged inner city children to advantaged suburban children. 
