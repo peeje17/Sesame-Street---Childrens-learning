@@ -87,7 +87,7 @@ I have used the same code as above, but now for the variable regular.
 
 <div align="center">
   <img src="https://github.com/peeje17/Sesame-Street---Childrens-learning/blob/main/regular_ate.png" alt="Figure 1" width="WIDTH" height="HEIGHT">
-  **Figure 2**: Regular: Average treatment effect on children's knowledge of numbers
+  Figure 2: Regular: Average treatment effect on children's knowledge of numbers
 </div>
 
 
